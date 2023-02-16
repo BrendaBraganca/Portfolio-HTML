@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    color: #7c7975;
+    box-sizing: border-box;
+}
+.cabecalho {
+    padding: 5% 0% 0% 15%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+    color: #d1958f;
+}
+.impressoes {
+    padding: 5% 0% 0% 15%;
+    width: 1000px;
+}
+.principal {
+    display: flex ;
+}
+.principal__texto {
+    display: flex;
+    flex-direction: column;
+}
+.foto {
+    height: 360px;
+    width: 360px;
+}
+.principal__nome {
+    color: #d1958f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 64px;
+}
+.principal__profissao {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+.principal__contato {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5% 0% 5% 0%;
+}
+.principal__contato__especifico {
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+.objetivos__formacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.objetivos__formacoes__topico {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+.objetivos__formacoes__lista {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.rodape {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color: #d1958f;
+    color: white;
+    height: 40px;
+    text-align: center;
+    padding-top: 2%;
+    margin-top: 8%;
+}
